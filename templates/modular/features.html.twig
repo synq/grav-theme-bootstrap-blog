@@ -14,7 +14,7 @@
                 {% endif %}
                 <div class="feature-content">
                 <h4>{{ feature.title }}</h4>
-                <p>{{ feature.text }}</p>
+                <p>{{ feature.text|markdown }}</p>
                 </div>
             </div>
         {% endfor %}
